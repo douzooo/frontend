@@ -1,0 +1,69 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #cfcfcf;
+    font-family: 'Inter', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+
+
+.content {
+    margin-left: 280px; /* Space for the sidebar */
+    width: 100%;
+    background-color: #f0f0f0;
+    overflow-y: auto;
+    height: 100vh; /* Ensure content takes full height */
+    padding-left: 20px;
+}
+
+
+.sidebar {
+    position: fixed; /* Fixed sidebar */
+    width: 280px;
+    height: 100%; /* Full height */
+    background-color: #ffffff;
+    color: white;
+    border-right: 1px solid #c6c6c6;
+}
+
+
+.sidebar p {
+    color: white;
+    font-size: 18px;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+.elpmisInfo{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(29, 29, 29);
+    margin: 0;
+    padding: 24px;
+    padding-bottom: 55px;
+}
+
+
+.elpmis{
+    font-size: 29px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-family: Inter;
+    font-weight: 100;
+}
+
+.box{
+    border: 2px solid #5b5b5b;
+    border-radius: 16px;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+}

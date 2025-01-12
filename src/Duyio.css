@@ -1,0 +1,48 @@
+gradient {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+}
+
+gradient[animated] {
+    animation: animatedTextGradient 3s linear infinite;
+    background-size: 200% auto;
+}
+
+gradient[color="red"] {
+    background: linear-gradient(89deg, #E40000 0%, #FF660D 50.79%, #E40000 100.0%);
+    font-weight: 600;
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+gradient[color="green"] {
+    background: linear-gradient(90deg, #FBFF00 46.52%, #03CE00 80%,#FBFF00 100%);
+    font-weight: 600;
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+gradient[color="mango"] {
+    background: linear-gradient(90deg, #FFA100 0.7%, #FF006A 30%,#FFA100 100%);
+    font-weight: 600;
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes animatedTextGradient {
+    0% {
+        background-position: 0% center;
+    }
+
+    100% {
+        background-position: 200% center;
+    }
+}
